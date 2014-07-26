@@ -191,7 +191,7 @@ foreach($links['face_detection']  as $item) {
 $endtime = microtime(true);
 $timediff = $endtime - $starttime;
 echo "Total Time: " . $timediff . "<br><br>";
-printf(‘It took %.5f sec’, $timediff);
+printf('It took %.5f sec', $timediff);
 ?>
 
 </body>
